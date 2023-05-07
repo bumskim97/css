@@ -1,43 +1,15 @@
-/* h1 {
-  color: crimson;
+#first {
+  color: rgb(255, 0, 0);
+  background-color: antiquewhite;
 }
-h2 {
-  color: cadetblue;
-} */
-/* css rule */
-/* selectors */
-/* declaration block*/
-/* declaration */
-/* property: value; */
-
-/* id selector */
-#heading {
-  color: goldenrod;
-  background: black;
+#second {
+  color: aquamarine;
+  background: lightgreen;
 }
-#subheading {
-  color: red;
-  background: grey;
+#three {
+  color: rgb(0, 0, 255);
+  background: rgb(100, 100, 100);
 }
-
-/* class selector */
-.green {
-  color: green;
-}
-.red {
-  color: red;
-  background-color: black;
-}
-#title {
-  font-size: 40px;
-}
-.lowercase {
-  text-transform: lowercase;
-}
-div {
-  color: red;
-  background: grey;
-}
-span {
-  text-transform: uppercase;
+body {
+  background: rgb(120, 20, 50);
 }
