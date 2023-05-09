@@ -1,20 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+a {
+  font-size: 40px;
+  text-decoration: none;
+}
 
 body {
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 900;
+  text-transform: uppercase;
 }
-.main {
-  font-family: "Montserrat", sans-serif;
+h1 {
+  text-transform: lowercase;
+  text-decoration: line-through;
 }
-.subheading {
-  font-style: normal;
-}
+
 .one {
-  font-weight: 700;
-  font-style: italic;
+  line-height: 2.5em;
 }
 .two {
-  font-weight: 100;
-  font-style: oblique;
+  letter-spacing: 5px;
+  text-decoration: overline;
+  line-height: 2rem;
+}
+.three {
+  word-spacing: 20px;
+  text-decoration: underline;
 }
