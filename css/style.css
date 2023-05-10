@@ -5,32 +5,21 @@
 }
 div {
   min-height: 100vh;
-  color: green;
-  font-size: 60px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   text-align: center;
+  font-size: 60px;
+  color: orange;
 }
-.big-img {
+.banner {
   background: url(../images/big.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   background-attachment: fixed;
 }
-.small-img {
-  border: 2px solid red;
-  background: url(../images/photo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-}
-.folder-img {
-  background: url(../images/big.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75)),
+    url("../images/big.jpg") center/cover no-repeat fixed;
 }
