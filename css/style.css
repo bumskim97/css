@@ -6,16 +6,15 @@ div {
 }
 .one {
   background: blue;
-  position: relative;
-  /* top: 50px; */
-  /* left: 20rem; */
-  right: 50%;
-  bottom: 20px;
 }
 .two {
   background: green;
+  /* position: relative; */
 }
 .special {
   background: lightcoral;
   font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
