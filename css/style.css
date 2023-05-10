@@ -1,20 +1,27 @@
 div {
-  width: 150px;
-  height: 150px;
-  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  color: white;
+  margin: 15px;
+  transition: all 1s;
+}
+div:hover {
+  transform: translateX(100px);
 }
 
-.one {
-  background: red;
+.ease {
+  transition-timing-function: ease;
 }
-.two {
-  background: green;
+.linear {
+  transition-timing-function: linear;
 }
-.three {
-  background: blue;
-  transition: all 4s 2s;
+.ease-in {
+  transition-timing-function: ease-in;
 }
-.three:hover {
-  background: coral;
-  border-radius: 50%;
+.ease-out {
+  transition-timing-function: ease-out;
+}
+.ease-in-out {
+  transition-timing-function: ease-in-out;
 }
