@@ -1,19 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 div {
-  height: 400px;
-  color: red;
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .big-img {
   background: url(../images/big.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 .small-img {
   border: 2px solid red;
-  background: url(../images/small.jpg);
+  background: url(../images/photo.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100% 20%;
+  background-position: center;
+  background-attachment: fixed;
 }
 .folder-img {
-  background: url(../images/photo.jpg);
-  background-size: contain;
+  background: url(../images/big.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
