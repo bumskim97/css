@@ -1,27 +1,29 @@
 div {
-  width: 100px;
+  width: 200px;
   height: 100px;
-  background: blue;
+  margin: 10px;
   color: white;
-  margin: 15px;
-  transition: all 1s;
-}
-div:hover {
-  transform: translateX(100px);
 }
 
-.ease {
-  transition-timing-function: ease;
+.animation {
+  background: blue;
+  animation: move 5s 2;
+  animation-fill-mode: forwards;
 }
-.linear {
-  transition-timing-function: linear;
-}
-.ease-in {
-  transition-timing-function: ease-in;
-}
-.ease-out {
-  transition-timing-function: ease-out;
-}
-.ease-in-out {
-  transition-timing-function: ease-in-out;
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0.5;
+  }
 }
