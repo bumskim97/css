@@ -4,22 +4,20 @@
   box-sizing: border-box;
 }
 div {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 60px;
-  color: orange;
+  float: left;
+  height: 200px;
+  width: 33.33%;
 }
-.banner {
-  background: url(../images/big.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
+.one {
+  background: red;
 }
-.header {
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.75)),
-    url("../images/big.jpg") center/cover no-repeat fixed;
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+}
+h1 {
+  clear: both;
 }
