@@ -1,20 +1,19 @@
 div {
-  background: blue;
-  margin: 10px;
-  color: white;
+  height: 400px;
+  color: red;
 }
-.none {
-  display: none;
+.big-img {
+  background: url(../images/big.jpg);
+  background-size: cover;
+  background-position: center;
 }
-.opacity-1 {
-  opacity: 1;
+.small-img {
+  border: 2px solid red;
+  background: url(../images/small.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 20%;
 }
-.opacity-5 {
-  opacity: 0.5;
-}
-.opacity-0 {
-  opacity: 0;
-}
-.visibility {
-  visibility: hidden;
+.folder-img {
+  background: url(../images/photo.jpg);
+  background-size: contain;
 }
